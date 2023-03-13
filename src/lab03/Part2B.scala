@@ -31,6 +31,8 @@ object Part2B extends App:
 
   println("raddoppiando 6 e aggiungendo 1 ottengo come risultato " + compose(_ + 1)(_ * 2)(6))
 
-  //val lambdaCompose: (Int => Int) => ((Int => Int) => (Int => Int)) => f => (g => f(g))
+  val lambdaCompose: (Int => Int, Int => Int) => (Int => Int) = (f, g) => (n => f(g(n)))
+
+  println("dividendo per 2 il numero 10 e moltiplicando per 3 ottengo come risultato " + lambdaCompose(_ / 2, _ * 3)(10))
 
 
