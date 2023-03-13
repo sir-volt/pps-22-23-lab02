@@ -45,5 +45,5 @@ object Part2A extends App:
   println("genericNeg test")
   println(negative(m))
   println(positive(m))
-  println(lambdaPositive(m))
-  println(lambdaPositive(n))
+  //println(lambdaPositive(m))
+  //println(lambdaPositive(n))
