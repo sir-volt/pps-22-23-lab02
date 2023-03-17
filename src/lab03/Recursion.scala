@@ -1,4 +1,5 @@
 package lab03
 
-case object Recursion extends App:
+object Recursion extends App:
   
+  println("boi")
