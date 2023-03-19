@@ -1,6 +1,6 @@
 package lab03
 
-object Part2A extends App:
+object Tasks extends App:
   /* esercizio 1: higher-order function. Utilizzare sia funzione lambda match-case, sia metodo*/
 
   def checkPositive(n: Int): String = n match
